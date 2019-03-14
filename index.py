@@ -25,7 +25,7 @@ def getNumberOfDaysElapsed(day, month, year):
 
 def getPercentOfYearElapsed(daysElapsed):
 
-    daysOfYear = 356 
+    daysOfYear = 365 
     percent = round(100 * daysElapsed / daysOfYear, 1)
     return (percent)
 
